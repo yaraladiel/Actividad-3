@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de solicitud de empleo</title>
+</head>
+
+<body>
+
+</body>
+<nav>
+    <a href="index.html">inicio</a>
+    <a href="formulario">Inscripción</a>
+</nav>
+<main>
+    <h1>Formulario de solicitud de empleo</h1>
+
+    <section>
+        <h4>Tu información</h4>
+        <form action="https://httpbin.org/post" method="post">
+
+            <input type="text" placeholder="Indica tu nombre" name="Nombre">
+            <br />
+            <input type="text" placeholder="Indica tu Apellido" name="Apellido">
+            <br />
+            <input type="num" placeholder="Indica tu Edad" name="Edad">
+            <br />
+            <input type="password" placeholder="Indica la contraseña" name="password">
+            <br />
+            <h4>Tus hobbies</h4>
+            <select name="Hobbies">
+                <option value="Programar">Programar</option>
+                <option value="Leer">Leer</option>
+                <option value="Dormir">Dormir mucho</option>
+                <option value="Ajedréz">Ajedréz</option>
+                <option value="Cocina (o repostería)">Cocina o repostería</option>
+            </select>
+            <br />
+            <h4>Cosas que te gusta hacer</h4>
+            <input type="checkbox" name="Casilla " value="Hablar" />Hablar con amigos
+            <br />
+            <input type="checkbox" name="Casilla " value="Anime" />Ver anime
+            <br />
+            <input type="checkbox" name="Casilla" value="Videojuegos" />Jugar videojuegos
+            <br />
+
+            <h4>Genero</h4>
+            <input type="radio" name="Genero" value="hombre" />Hombre
+            <br />
+            <input type="radio" name="Genero" value="mujer" />Mujer
+            <br />
+            <input type="radio" name="Genero" value="Indefinido" />Prefiero no descirlo
+            <br />
+            <h4>Comentarios</h4>
+            <textarea name="comentario " placeholder="Indica aqui tu comentario "></textarea>
+
+            <br />
+            <button type=" submit "> Enviar </button>
+            <button type="reset ">Eliminar</button>
+        </form>
+
+    </section>
+</main>
+
+</html>
+
+</html>
